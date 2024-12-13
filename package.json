@@ -1,0 +1,27 @@
+{
+  "name": "bienesraices",
+  "version": "1.0.0",
+  "description": "Proyecto con Sequelize",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test especified\" && exit 1"
+  },
+  "keywords": [
+    "MVC",
+    "Sequelize",
+    "postgresql"
+  ],
+  "author": "Grupo 1",
+  "license": "ISC",
+  "dependencies": {
+    "bienesraices": "file:",
+    "express": "^4.21.2",
+    "express-handlebars": "^8.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
